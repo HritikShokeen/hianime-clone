@@ -1,0 +1,200 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color:black;
+}
+
+
+.nav-item>a{
+    color:white;
+    margin-right:50px;
+}
+
+
+
+.nav-link:hover{
+    color:pink;
+
+}
+
+.navbar{
+    background-color:black;
+}
+
+
+
+
+
+
+
+.hero-section{
+    width:100%;
+    height:550px;
+    
+    border:1px solid rgb(255, 255, 255);
+    border-radius:25px;
+    background-image:linear-gradient(to right,rgb(0,0,0,1) 0%, rgb(0,0,0,0.85) 30%, rgb(256,256,256,0.1) 100%),url("https://wallpapers.com/images/hd/naruto-anime-rb5wh2hicbe7y116.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+span{
+    color:pink;
+}
+
+.wrapper{
+    width:55%;
+    height:95%;
+    
+}
+.wrapper>h1{
+    font-size:3rem;
+}
+
+@media (max-width:1000px){
+    .wrapper{
+        width:100%;
+        
+    }
+}
+@media( max-width:750px){
+    .hero-section{
+        background-image:none;
+    }
+}
+
+.searchbar{
+
+    
+
+    font-size:1.25rem;
+    padding:2px;
+    display:flex;
+    gap:7px;
+
+}
+.searchbar>input{
+    width:60%;
+    outline:none;
+    border-radius:10px;
+    padding:5px;
+    padding-left:7px;
+}
+
+.searchbar>div{
+    width:10%;
+    
+    background-color:pink;
+    color:black;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+}
+
+#watchanime{
+    background-color:pink;
+    border-radius:15px;
+    
+
+}
+#watchanime:hover{
+    opacity:0.9;
+}
+.allanime>p>a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.allanime>p>a:hover{
+    color:pink;
+}
+
+
+
+
+.info{
+    
+    border-radius:25px;
+    color:white;
+    background-color:black;
+   
+    
+}
+
+.comments{
+    
+    border-radius:25px;
+    background-color:black;
+}
+
+
+
+
+.share>.h5{
+    color:pink;
+}
+#friends{
+    font-size:12px;
+    margin-top:0px;
+}
+.share>h5{
+    font-size:35px;
+
+}
+.share>p{
+    font-size:1.1rem;
+    color:gainsboro;
+}
+.what>p{
+    font-size:1.1rem;
+    color:gainsboro;
+    
+
+}
+.what>ul>li{
+    font-size:1.1rem;
+    color:gainsboro;
+
+}
+.what>h5{
+    font-size:30px;
+}
+
+.footer{
+    color:white;
+    
+}
+
+
+
+
+.user{
+    height:40px;
+    width:40px;
+    border:none;
+    border-radius:50%;
+    
+}
+.user>img{
+
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+
+#readmore{
+    text-decoration:none;
+    color:black;
+}
+
+#readmore:hover{
+    opacity:0.9
+}
+
+
+
+
